@@ -97,7 +97,7 @@ export default function Home() {
 
         {/* CONTATO */}
         <a
-          href="https://wa.me/55119577667799?text=Olá,%20tenho%20interesse%20no%20em%20criar%20um%20Site"
+          href="https://wa.me/5511957767799?text=Olá,%20tenho%20interesse%20no%20em%20criar%20um%20Site"
           target="_blank"
           className="border border-white/20 rounded-full px-6 py-2 text-[11px] tracking-[0.25em] uppercase hover:bg-white hover:text-black transition-all duration-700"
         >
@@ -448,7 +448,7 @@ export default function Home() {
                 <p className="text-xs opacity-50 mt-1">mensal</p>
               </div>
 
-              <a href="https://wa.me/55119577667799?text=Olá,%20tenho%20interesse%20no%20plano%20Monza" className="mt-8 border border-white/20 rounded-full px-6 py-3 text-[11px] tracking-[0.25em] uppercase hover:bg-white hover:text-black transition-all duration-700">Saiba Mais</a>
+              <a href="https://wa.me/5511957767799?text=Olá,%20tenho%20interesse%20no%20plano%20Monza" className="mt-8 border border-white/20 rounded-full px-6 py-3 text-[11px] tracking-[0.25em] uppercase hover:bg-white hover:text-black transition-all duration-700">Saiba Mais</a>
 
             </div>
           </div>
@@ -489,7 +489,7 @@ export default function Home() {
               </div>
 
               <a
-                href="https://wa.me/55119577667799?text=Olá,%20tenho%20interesse%20no%20plano%20Interlagos"
+                href="https://wa.me/5511957767799?text=Olá,%20tenho%20interesse%20no%20plano%20Interlagos"
                 className="mt-8 border border-white/20 rounded-full px-6 py-3 text-[11px] tracking-[0.25em] uppercase hover:bg-white hover:text-black transition-all duration-700"
               >
                 Saiba Mais
@@ -534,7 +534,7 @@ export default function Home() {
               </div>
 
               <a
-                href="https://wa.me/55119577667799?text=Olá,%20tenho%20interesse%20no%20plano%20Silverstone"
+                href="https://wa.me/5511957767799?text=Olá,%20tenho%20interesse%20no%20plano%20Silverstone"
                 className="mt-auto border border-white/20 rounded-full px-6 py-3 text-[11px] tracking-[0.25em] uppercase hover:bg-white hover:text-black transition-all duration-700"
               >
                 Saiba Mais
@@ -579,7 +579,7 @@ export default function Home() {
               </div>
 
               <a
-                href="https://wa.me/55119577667799?text=Olá,%20tenho%20interesse%20no%20plano%20Nurburgring"
+                href="https://wa.me/5511957767799?text=Olá,%20tenho%20interesse%20no%20plano%20Nurburgring"
                 className="mt-auto border border-white/20 rounded-full px-6 py-3 text-[11px] tracking-[0.25em] uppercase hover:bg-white hover:text-black transition-all duration-700"
               >
                 Saiba Mais
@@ -611,7 +611,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://wa.me/55119577667799?text=Olá,%20tenho%20interesse%20no%20em%20criar%20um%20Site"
+              href="https://wa.me/5511957767799?text=Olá,%20tenho%20interesse%20no%20em%20criar%20um%20Site"
               target="_blank"
               className="hover:opacity-50 transition-all duration-500"
             >

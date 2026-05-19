@@ -221,18 +221,31 @@ export default function Home() {
             </div>
           </a>
 
-          {/* CARD 9 {/* CARD 9 */}
-          {/*<a href="https://vg-solucoes-financeiras.vercel.app/" target="_blank" className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          {/* CARD 9 */}
+          <a href="https://vg-solucoes-financeiras.vercel.app/" target="_blank" className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
 
-            {/*<div className="relative aspect-[16/10] overflow-hidden">
-              {/*<Image src="/images/case-vg.png" alt="Soluções Financeiras" fill className="object-cover transition-all duration-700 {/ group-hover:scale-105"/>
-            {/*</div>
+            <div className="relative aspect-[16/10] overflow-hidden">
+              <Image src="/images/case-vg.png" alt="Soluções Financeiras" fill className="object-cover transition-all duration-700 {/ group-hover:scale-105" />
+            </div>
 
-            {/*<div className="p-6">
-              {/*<p className="text-[11px] tracking-[0.3em] uppercase opacity-40">Avus</p>
-              {/*<h3 className="mt-3 text-2xl uppercase">VG Soluções Financeiras</h3>
-            {/*</div>
-          {/*</a> */}
+            <div className="p-6">
+              <p className="text-[11px] tracking-[0.3em] uppercase opacity-40">Avus</p>
+              <h3 className="mt-3 text-2xl uppercase">VG Soluções Financeiras</h3>
+            </div>
+          </a>
+
+          {/* CARD 10 */}
+          <a href="www.b1motors.com.br" target="_blank" className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+
+            <div className="relative aspect-[16/10] overflow-hidden">
+              <Image src="/images/case-b1.png" alt="B1 Motors" fill className="object-cover transition-all duration-700 {/ group-hover:scale-105" />
+            </div>
+
+            <div className="p-6">
+              <p className="text-[11px] tracking-[0.3em] uppercase opacity-40">Avus</p>
+              <h3 className="mt-3 text-2xl uppercase">B1 Motors</h3>
+            </div>
+          </a>
         </div>
       </section>
 

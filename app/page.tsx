@@ -222,7 +222,7 @@ export default function Home() {
           </a>
 
           {/* CARD 9 */}
-          <a href="https://vg-solucoes-financeiras.vercel.app/" target="_blank" className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <a href="https://vg-solucoesfinanceiras.vercel.app/" target="_blank" className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
 
             <div className="relative aspect-[16/10] overflow-hidden">
               <Image src="/images/case-vg.png" alt="Soluções Financeiras" fill className="object-cover transition-all duration-700 {/ group-hover:scale-105" />
@@ -235,7 +235,7 @@ export default function Home() {
           </a>
 
           {/* CARD 10 */}
-          <a href="www.b1motors.com.br" target="_blank" className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+          <a href="https://b1motors.com.br/" target="_blank" className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
 
             <div className="relative aspect-[16/10] overflow-hidden">
               <Image src="/images/case-b1.png" alt="B1 Motors" fill className="object-cover transition-all duration-700 {/ group-hover:scale-105" />

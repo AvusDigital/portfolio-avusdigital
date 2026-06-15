@@ -87,7 +87,7 @@ export default function Home() {
             <div className="mt-8 flex flex-wrap justify-center gap-4">
 
               <a
-                href="https://wa.me/5511957767799?text=Quero entender o Signature"
+                href="https://wa.me/5511957767799?text=Quero+entender+o+Signature"
                 target="_blank"
                 className="px-6 py-3 border border-white text-sm uppercase tracking-[0.15em] transition duration-300 hover:bg-white hover:text-black hover:border-white"
               >
@@ -141,7 +141,7 @@ export default function Home() {
               <div className="mt-8 flex flex-wrap justify-center gap-4">
 
                 <a
-                  href="https://wa.me/5511957767799?text=Quero entender o Signature"
+                  href="https://wa.me/5511957767799?text=Quero+entender+o+Focus"
                   target="_blank"
                   className="px-6 py-3 border border-white text-sm uppercase tracking-[0.15em] transition duration-300 hover:bg-white hover:text-black hover:border-white"
                 >
@@ -378,7 +378,7 @@ export default function Home() {
           <a href="https://avuslaw.vercel.app/" target="_blank" className="group relative overflow-hidden h-72 border border-white/10 rounded-xl" >
 
             {/* DESKTOP */}
-            <img src="/images/law-desk.png" className="hidden md:block absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" />
+            <img src="/images/law-desktop.png" className="hidden md:block absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" />
 
             {/* MOBILE */}
             <img src="/images/law-mobile.png" className="block md:hidden absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" />

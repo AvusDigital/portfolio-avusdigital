@@ -1,10 +1,9 @@
 export default function Home() {
   return (
     <main>
-      <section
-        id="hero"
-        className="relative min-h-screen flex flex-col justify-between px-6 md:px-12 lg:px-20"
-      >
+      {/* HERO */}
+      <section id="hero" className="relative min-h-screen flex flex-col justify-between px-6 md:px-12 lg:px-20">
+
         {/* CONTEÚDO */}
         <div className="flex-1 flex items-center">
           <div className="max-w-4xl mx-auto md:mx-0 text-center md:text-left">
@@ -54,6 +53,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SIGNATURE E FOCUS */}
       <section className="relative min-h-screen grid grid-cols-1 md:grid-cols-2">
 
         {/* SIGNATURE */}
@@ -157,6 +157,7 @@ export default function Home() {
 
       </section>
 
+      {/* CASES */}
       <section id="cases" className="relative min-h-screen px-6 md:px-12 lg:px-20 py-24">
 
         {/* HEADER */}
@@ -276,6 +277,7 @@ export default function Home() {
 
       </section>
 
+      {/* AVUS LAB */}
       <section id="lab" className="relative min-h-screen px-6 md:px-12 lg:px-20 py-24">
 
         {/* HEADER */}
@@ -414,10 +416,31 @@ export default function Home() {
             </div>
           </a>
 
+          {/* LAB 7 */}
+          <a href="https://avusrazor.vercel.app/" target="_blank" className="group relative overflow-hidden h-72 border border-white/10 rounded-xl" >
+
+            {/* DESKTOP */}
+            <img src="/images/razor-desk.png" className="hidden md:block absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" />
+
+            {/* MOBILE */}
+            <img src="/images/razor-mobile.png" className="block md:hidden absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" />
+
+            {/* OVERLAY */}
+            <div className="absolute inset-0 bg-black/40 group-hover:bg-white/10 transition duration-500" />
+
+            {/* TEXT */}
+            <div className="absolute inset-0 flex items-end p-6">
+              <p className="text-white text-lg uppercase tracking-[0.2em] translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-500">
+                Avus Razor
+              </p>
+            </div>
+          </a>
+
         </div>
 
       </section>
 
+      {/* DESIGN PORTFOLIO */}
       <section id="design" className="relative min-h-screen px-6 md:px-12 lg:px-20 py-24">
 
         {/* HEADER */}
@@ -521,10 +544,8 @@ export default function Home() {
 
       </section>
 
-      <section
-        id="build"
-        className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-20 py-24"
-      >
+      {/* CONSTRUIMOS */}
+      <section id="build" className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-20 py-24">
 
         <div className="max-w-5xl text-center">
 
@@ -583,10 +604,8 @@ export default function Home() {
 
       </section>
 
-      <section
-        id="process"
-        className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-20 py-24"
-      >
+      {/* PROCESSO */}
+      <section id="process" className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-20 py-24">
 
         <div className="max-w-5xl text-center">
 
@@ -644,10 +663,8 @@ export default function Home() {
 
       </section>
 
-      <section
-        id="testimonials"
-        className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-20 py-24"
-      >
+      {/* TESTEMUNHOS */}
+      <section id="testimonials" className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-20 py-24">
 
         <div className="max-w-5xl text-center">
 
@@ -705,10 +722,8 @@ export default function Home() {
 
       </section>
 
-      <section
-        id="cta"
-        className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-20 py-24"
-      >
+      {/* CTA */}
+      <section id="cta" className="relative min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-20 py-24">
 
         <div className="max-w-4xl text-center">
 
@@ -750,6 +765,7 @@ export default function Home() {
 
       </section>
 
+      {/* FOOTER */}
       <footer className="relative px-6 md:px-12 lg:px-20 py-12 border-t border-white/10">
 
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">

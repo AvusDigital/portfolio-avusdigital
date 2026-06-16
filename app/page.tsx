@@ -394,6 +394,26 @@ export default function Home() {
             </div>
           </a>
 
+          {/* LAB 6 */}
+          <a href="https://avusfit.vercel.app/" target="_blank" className="group relative overflow-hidden h-72 border border-white/10 rounded-xl" >
+
+            {/* DESKTOP */}
+            <img src="/images/fit-desktop.png" className="hidden md:block absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" />
+
+            {/* MOBILE */}
+            <img src="/images/fit-mobile.png" className="block md:hidden absolute inset-0 w-full h-full object-cover transition duration-500 group-hover:scale-110" />
+
+            {/* OVERLAY */}
+            <div className="absolute inset-0 bg-black/40 group-hover:bg-white/10 transition duration-500" />
+
+            {/* TEXT */}
+            <div className="absolute inset-0 flex items-end p-6">
+              <p className="text-white text-lg uppercase tracking-[0.2em] translate-y-6 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-500">
+                Avus Fit
+              </p>
+            </div>
+          </a>
+
         </div>
 
       </section>
